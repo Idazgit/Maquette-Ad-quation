@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(bg_header\ \ maquette\ 2.jpg);
+  background-size: cover;
+  height: 600px;
+}
+.LogoHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.imgHeader {
+  height: 40%;
+}
+
+.navbar {
+  background-color: #fdc88a;
+  display: flex;
+  width: 100%;
+  padding: 25px;
+}
+.navbar2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-right: 23%;
+}
+
+.navbar2 a {
+  display: flex;
+  align-items: center;
+  color: #a1393a;
+  font-size: 1.3rem;
+  margin-left: 15%;
+}
+.boutonSearch {
+  height: 30px;
+  padding-left: 10px;
+  border-color: #a1393a;
+  background-color: #fdc88a;
+}
+.boutonGauche {
+  padding: 5px 0 0 20px;
+  background-color: #a1393a;
+  border: #a1393a;
+}
+::placeholder {
+  color: #a1393a;
+}
