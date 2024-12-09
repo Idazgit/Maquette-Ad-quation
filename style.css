@@ -3,6 +3,10 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Barlow Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 header {
   display: flex;
@@ -10,6 +14,8 @@ header {
   background-image: url(bg_header\ \ maquette\ 2.jpg);
   background-size: cover;
   height: 600px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .LogoHeader {
   display: flex;
@@ -26,6 +32,7 @@ header {
   display: flex;
   width: 100%;
   padding: 25px;
+  font-size: 1.2rem;
 }
 .navbar2 {
   display: flex;
@@ -54,4 +61,494 @@ header {
 }
 ::placeholder {
   color: #a1393a;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 15000px;
+  width: 100%;
+  background-color: #3c3c3c;
+}
+.premieresection {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+.ssdbox {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+}
+.ssdbox h2 {
+  font-family: "Barlow Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 80%;
+  text-align: center;
+  color: #fdc88a;
+  border-top: #fdc88a 1px solid;
+  border-bottom: #fdc88a 1px solid;
+  padding: 8px;
+}
+.soupe1 {
+  width: 400px;
+  background-image: url(soupe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.salade1 {
+  width: 400px;
+  background-image: url(salade.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.dessert1 {
+  width: 400px;
+  background-image: url(dessert.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.soupe2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.salade2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.dessert2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.deuxiemesection {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: auto;
+  gap: 25px;
+}
+.pagedroite {
+  grid-column: 3/4;
+}
+.pagegauche {
+  grid-column: 1/3;
+}
+.premiertitre {
+  grid-column: 1/2;
+  text-align: center;
+}
+.premiertitre h2 {
+  font-size: 40px;
+  color: #fdc88a;
+  border-top: #a1393a 1px solid;
+  border-bottom: #a1393a 1px solid;
+  padding: 10px;
+}
+.tacos {
+  position: relative;
+}
+.tacosimg {
+  background-image: url(tacos.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 420px;
+  margin-top: 60px;
+}
+.tacosimg1 {
+  position: absolute;
+  height: 100px;
+  bottom: 47%;
+  left: 44%;
+}
+.tacosdesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #c3c67f;
+  height: 470px;
+  width: 100%;
+}
+.tacosdesc1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  text-align: center;
+  height: 40%;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+.tacosdesc1 h4 {
+  color: #a1393a;
+}
+.tacosp {
+  display: flex;
+  height: 40%;
+  align-items: center;
+  font-size: 22px;
+  text-align: center;
+}
+.bouttontacos {
+  padding: 10px 20px;
+  background-color: #a1393a;
+  font-size: 30px;
+}
+.bouttontacos a {
+  color: white;
+}
+.doubleimg {
+  display: flex;
+  width: 825px;
+  height: 800px;
+  margin-top: 55px;
+  gap: 25px;
+}
+.cote {
+  position: relative;
+  width: 400px;
+  height: 800px;
+}
+.coteimg1 {
+  position: absolute;
+  height: 100px;
+  bottom: 56%;
+  left: 36%;
+}
+.coteimg {
+  background-image: url(cote_de_boeuf.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+
+.cotetxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c3c67f;
+  width: 100%;
+  height: 550px;
+}
+.cotetxt1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  text-align: center;
+  height: 40%;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+.cotetxt1 h4 {
+  color: #a1393a;
+}
+.cotep {
+  display: flex;
+  height: 40%;
+  align-items: center;
+  font-size: 22px;
+  text-align: center;
+}
+.bouttoncote {
+  padding: 10px 20px;
+  background-color: #a1393a;
+  font-size: 30px;
+}
+.bouttoncote a {
+  color: white;
+}
+
+.carrot {
+  position: relative;
+  width: 400px;
+  height: 800px;
+}
+.carrotimg1 {
+  position: absolute;
+  height: 100px;
+  bottom: 56%;
+  left: 36%;
+}
+.carrotimg {
+  background-image: url(carrot.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+
+.carrottxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c3c67f;
+  width: 100%;
+  height: 550px;
+}
+.carrottxt1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  text-align: center;
+  height: 40%;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+.carrottxt1 h4 {
+  color: #a1393a;
+}
+.carrotp {
+  display: flex;
+  height: 40%;
+  align-items: center;
+  font-size: 22px;
+  text-align: center;
+}
+.bouttoncarrot {
+  padding: 10px 20px;
+  background-color: #a1393a;
+  font-size: 30px;
+}
+.bouttoncarrot a {
+  color: white;
+}
+.cookie {
+  position: relative;
+}
+.cookieimg {
+  background-image: url(cookies.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 420px;
+  margin-top: 120px;
+}
+.cookieimg1 {
+  position: absolute;
+  height: 100px;
+  bottom: 47%;
+  left: 44%;
+}
+.cookiedesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #c3c67f;
+  height: 470px;
+  width: 100%;
+}
+.cookiedesc1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  text-align: center;
+  height: 40%;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+.cookiedesc1 h4 {
+  color: #a1393a;
+}
+.cookiep {
+  display: flex;
+  height: 40%;
+  align-items: center;
+  font-size: 22px;
+  text-align: center;
+}
+.bouttoncookie {
+  padding: 10px 20px;
+  background-color: #a1393a;
+  font-size: 30px;
+}
+.bouttoncookie a {
+  color: white;
+}
+.imgsujet1 {
+  background-image: url(me.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
+.imgsujet2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 45%;
+  color: #3c3c3c;
+  font-size: 20px;
+}
+.imgsujet2 p {
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+.icones {
+  font-size: 40px;
+}
+.deuxiemetitre h2 {
+  font-size: 40px;
+  color: #fdc88a;
+  text-align: center;
+  border-top: #a1393a 1px solid;
+  border-bottom: #a1393a 1px solid;
+  padding: 10px;
+  margin-top: 60px;
+}
+.AJS {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  line-height: 1.8;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.AJS2 {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.AJS2 i {
+  font-size: 25px;
+}
+.imgbiere {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(bieres.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-top: 55px;
+}
+.txtbiere {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 95%;
+  width: 90%;
+  color: #fdc88a;
+  font-size: 25px;
+  text-align: center;
+  border: #fdc88a 1px solid;
+  line-height: 1.8;
+  position: relative;
+}
+.bouttonbiere {
+  position: absolute;
+  padding: 5px 20px;
+  background-color: #a1393a;
+  bottom: 5%;
+  right: 29%;
+}
+.bouttonbiere a {
+  color: white;
+}
+.imgcafé {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(cafe.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-top: 30px;
+}
+.txtcafé {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 95%;
+  width: 90%;
+  color: #fdc88a;
+  font-size: 25px;
+  text-align: center;
+  border: #fdc88a 1px solid;
+  line-height: 1.8;
+  position: relative;
+}
+.bouttoncafé {
+  position: absolute;
+  padding: 5px 20px;
+  background-color: #a1393a;
+  bottom: 5%;
+  right: 29%;
+}
+.bouttoncafé a {
+  color: white;
+}
+.troisiemesection {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: auto;
+  gap: 25px;
+  margin-top: 55px;
+}
+.troisiemetitre {
+  grid-column: 1/4;
+}
+.troisiemetitre h2 {
+  font-size: 40px;
+  color: #fdc88a;
+  text-align: center;
+  border-top: #a1393a 1px solid;
+  border-bottom: #a1393a 1px solid;
+  padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.photohamburger {
+  background-image: url(hamburger_small.jpg);
+  height: 300px;
+  grid-column: 1 / 2;
+}
+.photowrap {
+  background-image: url(wrap_small.jpg);
+  height: 300px;
+  grid-column: 2 / 3;
+}
+.photogateau {
+  background-image: url(gateau_small.jpg);
+  height: 300px;
+  grid-column: 3 / 4;
+}
+.photopancake {
+  background-image: url(pancake_small.jpg);
+  height: 300px;
+  grid-column: 1 / 2;
+  grid-row: 3/4;
+}
+.photooeuf {
+  background-image: url(oeufs_small.jpg);
+  height: 300px;
+  grid-column: 2 / 3;
+  grid-row: 3/4;
+}
+.photosaumon {
+  background-image: url(poisson_small.jpg);
+  height: 300px;
+  grid-column: 3 / 4;
+  grid-row: 3/4;
 }
