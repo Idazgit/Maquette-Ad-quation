@@ -30,34 +30,37 @@ header {
 .navbar {
   background-color: #fdc88a;
   display: flex;
+  justify-content: space-evenly;
   width: 100%;
   padding: 25px;
   font-size: 1.2rem;
 }
 .navbar2 {
   display: flex;
-  justify-content: space-evenly;
-  width: 50%;
-  margin-right: 23%;
+  width: 45%;
+  justify-content: center;
+  gap: 9%;
 }
 
 .navbar2 a {
   display: flex;
-  align-items: center;
   color: #a1393a;
   font-size: 1.3rem;
-  margin-left: 15%;
+}
+.divsearch {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.fa-magnifying-glass {
+  background-color: #a1393a;
+  padding: 8.5px;
+  color: #fdc88a;
+  font-size: 15px;
 }
 .boutonSearch {
-  height: 30px;
-  padding-left: 10px;
-  border-color: #a1393a;
+  font-size: 23px;
   background-color: #fdc88a;
-}
-.boutonGauche {
-  padding: 5px 0 0 20px;
-  background-color: #a1393a;
-  border: #a1393a;
 }
 ::placeholder {
   color: #a1393a;
@@ -66,7 +69,7 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 15000px;
+  height: 100%;
   width: 100%;
   background-color: #3c3c3c;
 }
@@ -199,6 +202,9 @@ main {
 .tacosp {
   display: flex;
   height: 40%;
+  width: 85%;
+  justify-content: center;
+  letter-spacing: 3px;
   align-items: center;
   font-size: 22px;
   text-align: center;
@@ -260,6 +266,9 @@ main {
 .cotep {
   display: flex;
   height: 40%;
+  justify-content: center;
+  letter-spacing: 3px;
+  width: 80%;
   align-items: center;
   font-size: 22px;
   text-align: center;
@@ -314,7 +323,10 @@ main {
 }
 .carrotp {
   display: flex;
+  justify-content: center;
+  letter-spacing: 3px;
   height: 40%;
+  width: 80%;
   align-items: center;
   font-size: 22px;
   text-align: center;
@@ -367,6 +379,9 @@ main {
 .cookiep {
   display: flex;
   height: 40%;
+  width: 85%;
+  justify-content: center;
+  letter-spacing: 3px;
   align-items: center;
   font-size: 22px;
   text-align: center;
@@ -521,34 +536,86 @@ main {
 }
 .photohamburger {
   background-image: url(hamburger_small.jpg);
+  background-size: cover;
   height: 300px;
   grid-column: 1 / 2;
 }
 .photowrap {
   background-image: url(wrap_small.jpg);
+  background-size: cover;
   height: 300px;
   grid-column: 2 / 3;
 }
 .photogateau {
   background-image: url(gateau_small.jpg);
+  background-size: cover;
   height: 300px;
   grid-column: 3 / 4;
 }
 .photopancake {
   background-image: url(pancake_small.jpg);
+  background-size: cover;
   height: 300px;
   grid-column: 1 / 2;
   grid-row: 3/4;
 }
 .photooeuf {
   background-image: url(oeufs_small.jpg);
+  background-size: cover;
   height: 300px;
   grid-column: 2 / 3;
   grid-row: 3/4;
 }
 .photosaumon {
   background-image: url(poisson_small.jpg);
+  background-size: cover;
   height: 300px;
   grid-column: 3 / 4;
   grid-row: 3/4;
+}
+footer {
+  margin-top: 90px;
+  height: 450px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(Calque.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logofooter {
+  width: 40%;
+  height: 80%;
+}
+.imgfooter {
+  width: 25%;
+  height: 28%;
+}
+.footerdroite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: end;
+  width: 35%;
+  height: 60%;
+}
+.navbarfooter1 ul {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  gap: 7%;
+  font-size: 1.7rem;
+}
+.navbarfooter2 a {
+  color: white;
+}
+
+.footerp {
+  margin-top: 7%;
+  color: white;
+  text-align: right;
+  font-size: 1.2 rem;
+  line-height: 35px;
 }
